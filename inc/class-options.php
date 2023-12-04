@@ -109,7 +109,7 @@ class jmUnsplashSettingsPage
                 'section' => 'unsplashsettings_section',
             ),
             array(
-                'label' => 'Qty Per Paqe',
+                'label' => 'Qty Per Page',
                 'id' => 'jm_unsplash_perpay',
                 'type' => 'number',
                 'section' => 'unsplashsettings_section',
