@@ -7,7 +7,7 @@ It adds a settings page under Media called Unsplash settings
 ### Add Api
 ![Add API](https://github.com/WestCoastDigital/JM-Unsplash/blob/main/assets/img/api.png?raw=true)
 
-1. [Login][https://unsplash.com/developers] to Unsplash and register a free api key
+1. [Login](https://unsplash.com/developers) to Unsplash and register a free api key
 1. Create an app for your site and generate keys
 1. Copy and paste the public key into the API Settings Field
 1. Here you can also change how many images per page
@@ -41,10 +41,7 @@ Yes! Same way you delete any image from the WordPress media library.
 No. When you add a image to the library it records the ID generated into a custom database field. Using the delete function only deletes the images in that database record.
 
 #### Do I need to generate an API key for every site?
-Whils I recommend it, it is not necessary. However free keys are limited (50 requests per hour at time of writing) which is why I recommend it.
-
-#### Can I hide the description when using the shortcode?
-Absolutely, just add description=false to your shortcode
+Whilst I recommend it, it is not necessary. However free keys are limited (50 requests per hour at time of writing) which is why I recommend it.
 
 #### Is this theme or plugin dependant?
 No. I built this to be a stand alone plugin. It does not rely on any plugins or frameworks to function as everything is created and coded by myself, including the gallery field. It only relies on the Unsplash API
